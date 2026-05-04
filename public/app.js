@@ -221,7 +221,7 @@ function showPage(p, btn) {
   if(p==='prestamos') cargarPrestamos();
 }
 
-function fmt(n){ return Number(n).toLocaleString('es-PY'); }
+function fmt(n){ return Number(n).toLocaleString('es-PY', { maximumFractionDigits: 0 }); }
 
 // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 // CARGAR MES
